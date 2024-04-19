@@ -21,8 +21,6 @@ $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $downloadfolder = "c:\temp\apps\"
-$git_usernane = "Ivo Beerens"
-$git_password = "info@ivobeerens.nl"
 $winget_accept_terms = "--accept-source-agreements --accept-package-agreements"
 
 # Create Folder
