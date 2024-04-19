@@ -16,6 +16,10 @@
         1.0 19-04-2024 Creation
 #>
 
+# Variables
+$git_usernane = "Ivo Beerens"
+$git_password = "info@ivobeerens.nl"
+
 $processlist = @(
     "github.vscode-github-actions",
     "hashicorp.hcl",
