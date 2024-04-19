@@ -26,7 +26,8 @@ $processlist = @(
     "ms-vscode.azurecli",
     "ms-vscode.powershell",
     "codezombiech.gitignore",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "ms-vscode-remote.remote-wsl"
 )
 
 foreach ($item in $processlist) {
