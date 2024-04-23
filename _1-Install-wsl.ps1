@@ -31,6 +31,7 @@
         https://learn.microsoft.com/en-us/windows/wsl/install
         https://learn.microsoft.com/en-us/windows/wsl/basic-commands
         https://docs.docker.com/desktop/install/windows-install/
+        https://www.ivobeerens.nl/blog/2024/04/create-a-windows-developer-environment/
     .VERSIONS
         1.0 19-04-2024 Creation
 #>
