@@ -1,12 +1,12 @@
 <#
     .TITLE
-        Install Visual Studio Code Modules
+        Install Visual Studio Code Extensions
         Set the Git username and email address
     .AUTHOR
         Ivo Beerens
         www.ivobeerens.nl
     .DESCRIPTION
-        Install Visual Studio Code Modules
+        Install Visual Studio Code Extensions
     .NOTES
         Install VS Code extensions
         List existing extensions: code --list-extensions
