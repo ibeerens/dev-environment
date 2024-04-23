@@ -1,2 +1,3 @@
 # dev-environment
-Create a WIndows DEV environment
+
+Create a local Windows developer environment

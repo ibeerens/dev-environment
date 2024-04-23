@@ -1,6 +1,7 @@
 <#
     .TITLE
         Install Visual Studio Code Modules
+        Set the Git username and email address
     .AUTHOR
         Ivo Beerens
         www.ivobeerens.nl
@@ -9,7 +10,7 @@
     .NOTES
         Install VS Code extensions
         List existing extensions: code --list-extensions
-        Extensions are saved in:  %USERPROFILE%\.vscode\extensions
+        Extensions are stored in:  %USERPROFILE%\.vscode\extensions
     .LINK
 
     .VERSIONS
@@ -31,6 +32,8 @@ $processlist = @(
     "ms-vscode.powershell",
     "codezombiech.gitignore",
     "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-wsl"
 )
 
@@ -39,5 +42,5 @@ foreach ($item in $processlist) {
 }
 
 # Configure Git credentials
-git config --global user.name "Ivo Beerens"
-git config --global user.email info@ivobeerens.nl
+git config --global user.name $git_usernane
+git config --global user.email $git_password
